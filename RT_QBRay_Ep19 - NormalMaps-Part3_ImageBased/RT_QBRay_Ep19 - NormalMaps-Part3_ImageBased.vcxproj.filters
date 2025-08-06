@@ -1,0 +1,324 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\qbRayTrace">
+      <UniqueIdentifier>{7816eecb-253d-49e1-9939-69f98cf329f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\qbRayTrace\qbLinAlg">
+      <UniqueIdentifier>{5c8652e2-39cb-4aea-912d-77575bb45ee5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\qbRayTrace\qbLights">
+      <UniqueIdentifier>{507dd2e7-35a7-4d78-8267-a921e2cda67e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\qbRayTrace\qbMaterials">
+      <UniqueIdentifier>{c2f9c343-3234-4591-99d8-48f5f2389ab9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\qbRayTrace\qbPrimitives">
+      <UniqueIdentifier>{0bf90c31-6071-4c1e-8404-f23f2497886d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\qbRayTrace\qbTextures">
+      <UniqueIdentifier>{ca6f9a4f-183c-4c64-99b7-f59b905d7102}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\qbRayTrace\qbRayMarch">
+      <UniqueIdentifier>{9f0ec3ac-4639-43e1-bb5b-45f9a21995d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\qbRayTrace\qbNoise">
+      <UniqueIdentifier>{401c14db-a4f3-46d1-b93e-707a044dfbaa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\qbRayTrace\qbNormals">
+      <UniqueIdentifier>{f5908248-317c-420c-ac41-95ea14c5276b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\qbRayTrace\QBImage.cpp">
+      <Filter>Source Files\qbRayTrace</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CApp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\qbRayTrace\QBScene.cpp">
+      <Filter>Source Files\qbRayTrace</Filter>
+    </ClCompile>
+    <ClCompile Include="src\qbRayTrace\QBRay.cpp">
+      <Filter>Source Files\qbRayTrace</Filter>
+    </ClCompile>
+    <ClCompile Include="src\qbRayTrace\QBCamera.cpp">
+      <Filter>Source Files\qbRayTrace</Filter>
+    </ClCompile>
+    <ClCompile Include="src\qbRayTrace\QBGeometricTransform.cpp">
+      <Filter>Source Files\qbRayTrace</Filter>
+    </ClCompile>
+    <ClCompile Include="src\qbRayTrace\QBTimer.cpp">
+      <Filter>Source Files\qbRayTrace</Filter>
+    </ClCompile>
+    <ClCompile Include="src\qbRayTrace\qbLights\QBLightBase.cpp">
+      <Filter>Source Files\qbRayTrace\qbLights</Filter>
+    </ClCompile>
+    <ClCompile Include="src\qbRayTrace\qbLights\QBPointLight.cpp">
+      <Filter>Source Files\qbRayTrace\qbLights</Filter>
+    </ClCompile>
+    <ClCompile Include="src\qbRayTrace\qbPrimitives\QBObjectBase.cpp">
+      <Filter>Source Files\qbRayTrace\qbPrimitives</Filter>
+    </ClCompile>
+    <ClCompile Include="src\qbRayTrace\qbPrimitives\QBObjectPlane.cpp">
+      <Filter>Source Files\qbRayTrace\qbPrimitives</Filter>
+    </ClCompile>
+    <ClCompile Include="src\qbRayTrace\qbPrimitives\QBObjectSphere.cpp">
+      <Filter>Source Files\qbRayTrace\qbPrimitives</Filter>
+    </ClCompile>
+    <ClCompile Include="src\qbRayTrace\qbMaterials\QBMaterialBase.cpp">
+      <Filter>Source Files\qbRayTrace\qbMaterials</Filter>
+    </ClCompile>
+    <ClCompile Include="src\qbRayTrace\qbMaterials\QBSimpleMaterial.cpp">
+      <Filter>Source Files\qbRayTrace\qbMaterials</Filter>
+    </ClCompile>
+    <ClCompile Include="src\qbRayTrace\qbPrimitives\QBCylinder.cpp">
+      <Filter>Source Files\qbRayTrace\qbPrimitives</Filter>
+    </ClCompile>
+    <ClCompile Include="src\qbRayTrace\qbPrimitives\QBCone.cpp">
+      <Filter>Source Files\qbRayTrace\qbPrimitives</Filter>
+    </ClCompile>
+    <ClCompile Include="src\qbRayTrace\QBUtils.cpp">
+      <Filter>Source Files\qbRayTrace</Filter>
+    </ClCompile>
+    <ClCompile Include="src\qbRayTrace\qbTextures\QBCheckeredTexture.cpp">
+      <Filter>Source Files\qbRayTrace\qbTextures</Filter>
+    </ClCompile>
+    <ClCompile Include="src\qbRayTrace\qbTextures\QBFlatTexture.cpp">
+      <Filter>Source Files\qbRayTrace\qbTextures</Filter>
+    </ClCompile>
+    <ClCompile Include="src\qbRayTrace\qbTextures\QBTextureBase.cpp">
+      <Filter>Source Files\qbRayTrace\qbTextures</Filter>
+    </ClCompile>
+    <ClCompile Include="src\qbRayTrace\qbTextures\QBImageTexture.cpp">
+      <Filter>Source Files\qbRayTrace\qbTextures</Filter>
+    </ClCompile>
+    <ClCompile Include="src\qbRayTrace\qbMaterials\QBSimpleRefractive.cpp">
+      <Filter>Source Files\qbRayTrace\qbMaterials</Filter>
+    </ClCompile>
+    <ClCompile Include="src\qbRayTrace\qbPrimitives\QBBox.cpp">
+      <Filter>Source Files\qbRayTrace\qbPrimitives</Filter>
+    </ClCompile>
+    <ClCompile Include="src\qbRayTrace\qbRayMarch\QBRMTorus.cpp">
+      <Filter>Source Files\qbRayTrace\qbRayMarch</Filter>
+    </ClCompile>
+    <ClCompile Include="src\qbRayTrace\qbRayMarch\QBRayMarchBase.cpp">
+      <Filter>Source Files\qbRayTrace\qbRayMarch</Filter>
+    </ClCompile>
+    <ClCompile Include="src\qbRayTrace\qbRayMarch\QBSDFFunc.cpp">
+      <Filter>Source Files\qbRayTrace\qbRayMarch</Filter>
+    </ClCompile>
+    <ClCompile Include="src\qbRayTrace\qbRayMarch\QBRMCube.cpp">
+      <Filter>Source Files\qbRayTrace\qbRayMarch</Filter>
+    </ClCompile>
+    <ClCompile Include="src\qbRayTrace\qbRayMarch\QBRMSphere.cpp">
+      <Filter>Source Files\qbRayTrace\qbRayMarch</Filter>
+    </ClCompile>
+    <ClCompile Include="src\qbRayTrace\qbTextures\QBColourMap.cpp">
+      <Filter>Source Files\qbRayTrace\qbTextures</Filter>
+    </ClCompile>
+    <ClCompile Include="src\qbRayTrace\qbTextures\QBGradientTexture.cpp">
+      <Filter>Source Files\qbRayTrace\qbTextures</Filter>
+    </ClCompile>
+    <ClCompile Include="src\qbRayTrace\qbNoise\QBNoiseBase.cpp">
+      <Filter>Source Files\qbRayTrace\qbNoise</Filter>
+    </ClCompile>
+    <ClCompile Include="src\qbRayTrace\qbNoise\QBValueNoiseGenerator.cpp">
+      <Filter>Source Files\qbRayTrace\qbNoise</Filter>
+    </ClCompile>
+    <ClCompile Include="src\qbRayTrace\qbTextures\QBBasicValueNoiseTexture.cpp">
+      <Filter>Source Files\qbRayTrace\qbTextures</Filter>
+    </ClCompile>
+    <ClCompile Include="src\qbRayTrace\qbNoise\QBGradientNoiseGenerator.cpp">
+      <Filter>Source Files\qbRayTrace\qbNoise</Filter>
+    </ClCompile>
+    <ClCompile Include="src\qbRayTrace\qbTextures\QBMarbleTexture.cpp">
+      <Filter>Source Files\qbRayTrace\qbTextures</Filter>
+    </ClCompile>
+    <ClCompile Include="src\qbRayTrace\qbTextures\QBBasicGradientNoiseTexture.cpp">
+      <Filter>Source Files\qbRayTrace\qbTextures</Filter>
+    </ClCompile>
+    <ClCompile Include="src\qbRayTrace\qbNormals\QBNormalBase.cpp">
+      <Filter>Source Files\qbRayTrace\qbNormals</Filter>
+    </ClCompile>
+    <ClCompile Include="src\qbRayTrace\qbNormals\QBNormalConstant.cpp">
+      <Filter>Source Files\qbRayTrace\qbNormals</Filter>
+    </ClCompile>
+    <ClCompile Include="src\qbRayTrace\qbNormals\QBNormalSimpleRough.cpp">
+      <Filter>Source Files\qbRayTrace\qbNormals</Filter>
+    </ClCompile>
+    <ClCompile Include="src\qbRayTrace\qbNormals\QBTextureNormal.cpp">
+      <Filter>Source Files\qbRayTrace\qbNormals</Filter>
+    </ClCompile>
+    <ClCompile Include="src\qbRayTrace\qbTextures\QBStoneTexture.cpp">
+      <Filter>Source Files\qbRayTrace\qbTextures</Filter>
+    </ClCompile>
+    <ClCompile Include="src\qbRayTrace\qbNormals\QBImageNormal.cpp">
+      <Filter>Source Files\qbRayTrace\qbNormals</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\CApp.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qbRayTrace\QBImage.hpp">
+      <Filter>Source Files\qbRayTrace</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qbRayTrace\QBScene.hpp">
+      <Filter>Source Files\qbRayTrace</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qbRayTrace\QBRay.hpp">
+      <Filter>Source Files\qbRayTrace</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qbRayTrace\QBCamera.hpp">
+      <Filter>Source Files\qbRayTrace</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qbRayTrace\qbLinAlg\qbMatrix.h">
+      <Filter>Source Files\qbRayTrace\qbLinAlg</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qbRayTrace\qbLinAlg\qbMatrix33.hpp">
+      <Filter>Source Files\qbRayTrace\qbLinAlg</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qbRayTrace\qbLinAlg\qbMatrix44.hpp">
+      <Filter>Source Files\qbRayTrace\qbLinAlg</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qbRayTrace\qbLinAlg\qbVector.h">
+      <Filter>Source Files\qbRayTrace\qbLinAlg</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qbRayTrace\qbLinAlg\qbVector2.hpp">
+      <Filter>Source Files\qbRayTrace\qbLinAlg</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qbRayTrace\qbLinAlg\qbVector3.hpp">
+      <Filter>Source Files\qbRayTrace\qbLinAlg</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qbRayTrace\qbLinAlg\qbVector4.hpp">
+      <Filter>Source Files\qbRayTrace\qbLinAlg</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qbRayTrace\QBGeometricTransform.hpp">
+      <Filter>Source Files\qbRayTrace</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qbRayTrace\QBTimer.hpp">
+      <Filter>Source Files\qbRayTrace</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qbRayTrace\qbLights\QBLightBase.hpp">
+      <Filter>Source Files\qbRayTrace\qbLights</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qbRayTrace\qbLights\QBPointLight.hpp">
+      <Filter>Source Files\qbRayTrace\qbLights</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qbRayTrace\qbPrimitives\QBObjectBase.hpp">
+      <Filter>Source Files\qbRayTrace\qbPrimitives</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qbRayTrace\qbPrimitives\QBObjectPlane.hpp">
+      <Filter>Source Files\qbRayTrace\qbPrimitives</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qbRayTrace\qbPrimitives\QBObjectSphere.hpp">
+      <Filter>Source Files\qbRayTrace\qbPrimitives</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qbRayTrace\qbMaterials\QBMaterialBase.hpp">
+      <Filter>Source Files\qbRayTrace\qbMaterials</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qbRayTrace\qbMaterials\QBSimpleMaterial.hpp">
+      <Filter>Source Files\qbRayTrace\qbMaterials</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qbRayTrace\qbPrimitives\QBCylinder.hpp">
+      <Filter>Source Files\qbRayTrace\qbPrimitives</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qbRayTrace\qbPrimitives\QBCone.hpp">
+      <Filter>Source Files\qbRayTrace\qbPrimitives</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qbRayTrace\QBUtils.hpp">
+      <Filter>Source Files\qbRayTrace</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qbRayTrace\qbTextures\QBCheckeredTexture.hpp">
+      <Filter>Source Files\qbRayTrace\qbTextures</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qbRayTrace\qbTextures\QBFlatTexture.hpp">
+      <Filter>Source Files\qbRayTrace\qbTextures</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qbRayTrace\qbTextures\QBTextureBase.hpp">
+      <Filter>Source Files\qbRayTrace\qbTextures</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qbRayTrace\qbTextures\QBImageTexture.hpp">
+      <Filter>Source Files\qbRayTrace\qbTextures</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qbRayTrace\qbMaterials\QBSimpleRefractive.hpp">
+      <Filter>Source Files\qbRayTrace\qbMaterials</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qbRayTrace\qbPrimitives\QBBox.hpp">
+      <Filter>Source Files\qbRayTrace\qbPrimitives</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qbRayTrace\qbRayMarch\QBRayMarchBase.hpp">
+      <Filter>Source Files\qbRayTrace\qbRayMarch</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qbRayTrace\qbRayMarch\QBSDFFunc.hpp">
+      <Filter>Source Files\qbRayTrace\qbRayMarch</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qbRayTrace\qbRayMarch\QBRMCube.hpp">
+      <Filter>Source Files\qbRayTrace\qbRayMarch</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qbRayTrace\qbRayMarch\QBRMSphere.hpp">
+      <Filter>Source Files\qbRayTrace\qbRayMarch</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qbRayTrace\qbRayMarch\QBRMTorus.hpp">
+      <Filter>Source Files\qbRayTrace\qbRayMarch</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qbRayTrace\qbTextures\QBColourMap.hpp">
+      <Filter>Source Files\qbRayTrace\qbTextures</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qbRayTrace\qbTextures\QBGradientTexture.hpp">
+      <Filter>Source Files\qbRayTrace\qbTextures</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qbRayTrace\qbNoise\QBNoiseBase.hpp">
+      <Filter>Source Files\qbRayTrace\qbNoise</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qbRayTrace\qbNoise\QBValueNoiseGenerator.hpp">
+      <Filter>Source Files\qbRayTrace\qbNoise</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qbRayTrace\qbTextures\QBBasicValueNoiseTexture.hpp">
+      <Filter>Source Files\qbRayTrace\qbTextures</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qbRayTrace\qbNoise\QBGradientNoiseGenerator.hpp">
+      <Filter>Source Files\qbRayTrace\qbNoise</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qbRayTrace\qbTextures\QBMarbleTexture.hpp">
+      <Filter>Source Files\qbRayTrace\qbTextures</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qbRayTrace\qbTextures\QBBasicGradientNoiseTexture.hpp">
+      <Filter>Source Files\qbRayTrace\qbTextures</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qbRayTrace\qbNormals\QBNormalBase.hpp">
+      <Filter>Source Files\qbRayTrace\qbNormals</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qbRayTrace\qbNormals\QBNormalConstant.hpp">
+      <Filter>Source Files\qbRayTrace\qbNormals</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qbRayTrace\qbNormals\QBNormalSimpleRough.hpp">
+      <Filter>Source Files\qbRayTrace\qbNormals</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qbRayTrace\qbNormals\QBTextureNormal.hpp">
+      <Filter>Source Files\qbRayTrace\qbNormals</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qbRayTrace\qbTextures\QBStoneTexture.hpp">
+      <Filter>Source Files\qbRayTrace\qbTextures</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qbRayTrace\qbNormals\QBImageNormal.hpp">
+      <Filter>Source Files\qbRayTrace\qbNormals</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,172 @@
+﻿  CApp.cpp
+C:\GitHub\aalekhm\RayTracing\RT_QBRay\RT_QBRay_Ep26 - TileBasedRendering\src\CApp.cpp(222,20): warning C4018: '<=': signed/unsigned mismatch
+C:\GitHub\aalekhm\RayTracing\RT_QBRay\RT_QBRay_Ep26 - TileBasedRendering\src\CApp.cpp(222,43): warning C4018: '<': signed/unsigned mismatch
+C:\GitHub\aalekhm\RayTracing\RT_QBRay\RT_QBRay_Ep26 - TileBasedRendering\src\CApp.cpp(229,30): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\GitHub\aalekhm\RayTracing\RT_QBRay\RT_QBRay_Ep26 - TileBasedRendering\src\CApp.cpp(230,30): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\GitHub\aalekhm\RayTracing\RT_QBRay\RT_QBRay_Ep26 - TileBasedRendering\src\CApp.cpp(232,43): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\GitHub\aalekhm\RayTracing\RT_QBRay\RT_QBRay_Ep26 - TileBasedRendering\src\CApp.cpp(233,43): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\GitHub\aalekhm\RayTracing\RT_QBRay\RT_QBRay_Ep26 - TileBasedRendering\src\CApp.cpp(234,43): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\GitHub\aalekhm\RayTracing\RT_QBRay\RT_QBRay_Ep26 - TileBasedRendering\src\CApp.cpp(235,43): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\GitHub\aalekhm\RayTracing\RT_QBRay\RT_QBRay_Ep26 - TileBasedRendering\src\CApp.cpp(283,17): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\GitHub\aalekhm\RayTracing\RT_QBRay\RT_QBRay_Ep26 - TileBasedRendering\src\CApp.cpp(287,17): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\GitHub\aalekhm\RayTracing\RT_QBRay\RT_QBRay_Ep26 - TileBasedRendering\src\CApp.cpp(316,35): warning C4267: '=': conversion from 'size_t' to 'uint32_t', possible loss of data
+C:\GitHub\aalekhm\RayTracing\RT_QBRay\RT_QBRay_Ep26 - TileBasedRendering\src\CApp.cpp(319,20): warning C4018: '<': signed/unsigned mismatch
+C:\GitHub\aalekhm\RayTracing\RT_QBRay\RT_QBRay_Ep26 - TileBasedRendering\src\CApp.cpp(397,20): warning C4018: '<': signed/unsigned mismatch
+  main.cpp
+  QBCamera.cpp
+  QBGeometricTransform.cpp
+C:\GitHub\aalekhm\RayTracing\RT_QBRay\RT_QBRay_Ep26 - TileBasedRendering\src\qbRayTrace\qbLinAlg\qbMatrix44.hpp(161,23): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\GitHub\aalekhm\RayTracing\RT_QBRay\RT_QBRay_Ep26 - TileBasedRendering\src\qbRayTrace\qbLinAlg\qbMatrix44.hpp(160): message : while compiling class template member function 'void qbMatrix44<double>::SetToIdentity(void)'
+C:\GitHub\aalekhm\RayTracing\RT_QBRay\RT_QBRay_Ep26 - TileBasedRendering\src\qbRayTrace\QBGeometricTransform.cpp(8): message : see reference to function template instantiation 'void qbMatrix44<double>::SetToIdentity(void)' being compiled
+C:\GitHub\aalekhm\RayTracing\RT_QBRay\RT_QBRay_Ep26 - TileBasedRendering\src\qbRayTrace\qbLinAlg\qbMatrix44.hpp(449): message : see reference to class template instantiation 'qbMatrix44<double>' being compiled
+  QBImage.cpp
+  QBLightBase.cpp
+  QBPointLight.cpp
+  QBMaterialBase.cpp
+  QBSimpleMaterial.cpp
+  QBSimpleRefractive.cpp
+C:\GitHub\aalekhm\RayTracing\RT_QBRay\RT_QBRay_Ep26 - TileBasedRendering\src\qbRayTrace\qbMaterials\QBSimpleRefractive.cpp(211,67): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\GitHub\aalekhm\RayTracing\RT_QBRay\RT_QBRay_Ep26 - TileBasedRendering\src\qbRayTrace\qbMaterials\QBSimpleRefractive.cpp(239,68): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  QBGradientNoiseGenerator.cpp
+  QBNoiseBase.cpp
+  QBValueNoiseGenerator.cpp
+  QBImageNormal.cpp
+  QBNormalBase.cpp
+  QBNormalConstant.cpp
+  QBNormalSimpleRough.cpp
+  QBTextureNormal.cpp
+  QBBox.cpp
+  QBCompositeBase.cpp
+C:\GitHub\aalekhm\RayTracing\RT_QBRay\RT_QBRay_Ep26 - TileBasedRendering\src\qbRayTrace\qbPrimitives\QBCompositeBase.cpp(211,37): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  Compiling...
+  QBCone.cpp
+C:\GitHub\aalekhm\RayTracing\RT_QBRay\RT_QBRay_Ep26 - TileBasedRendering\src\qbRayTrace\qbPrimitives\QBCone.cpp(199,7): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  QBCylinder.cpp
+C:\GitHub\aalekhm\RayTracing\RT_QBRay\RT_QBRay_Ep26 - TileBasedRendering\src\qbRayTrace\qbPrimitives\QBCylinder.cpp(121,6): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\GitHub\aalekhm\RayTracing\RT_QBRay\RT_QBRay_Ep26 - TileBasedRendering\src\qbRayTrace\qbPrimitives\QBCylinder.cpp(136,6): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\GitHub\aalekhm\RayTracing\RT_QBRay\RT_QBRay_Ep26 - TileBasedRendering\src\qbRayTrace\qbPrimitives\QBCylinder.cpp(211,7): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  QBObjectBase.cpp
+C:\GitHub\aalekhm\RayTracing\RT_QBRay\RT_QBRay_Ep26 - TileBasedRendering\src\qbRayTrace\qbPrimitives\QBObjectBase.cpp(74,46): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  QBObjectPlane.cpp
+  QBObjectSphere.cpp
+  QBRay.cpp
+  QBRayMarchBase.cpp
+  QBRMCube.cpp
+C:\GitHub\aalekhm\RayTracing\RT_QBRay\RT_QBRay_Ep26 - TileBasedRendering\src\qbRayTrace\qbLinAlg\qbVector.h(119,1): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\GitHub\aalekhm\RayTracing\RT_QBRay\RT_QBRay_Ep26 - TileBasedRendering\src\qbRayTrace\qbLinAlg\qbVector.h(118): message : while compiling class template member function 'qbVector<T>::qbVector(std::vector<T,std::allocator<T>>)'
+          with
+          [
+              T=double
+          ]
+C:\GitHub\aalekhm\RayTracing\RT_QBRay\RT_QBRay_Ep26 - TileBasedRendering\src\qbRayTrace\qbRayMarch\QBRMCube.cpp(32): message : see reference to function template instantiation 'qbVector<T>::qbVector(std::vector<T,std::allocator<T>>)' being compiled
+          with
+          [
+              T=double
+          ]
+C:\GitHub\aalekhm\RayTracing\RT_QBRay\RT_QBRay_Ep26 - TileBasedRendering\src\qbRayTrace\qbRayMarch\QBRMCube.cpp(32): message : see reference to class template instantiation 'qbVector<T>' being compiled
+          with
+          [
+              T=double
+          ]
+  QBRMSphere.cpp
+C:\GitHub\aalekhm\RayTracing\RT_QBRay\RT_QBRay_Ep26 - TileBasedRendering\src\qbRayTrace\qbLinAlg\qbVector.h(119,1): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\GitHub\aalekhm\RayTracing\RT_QBRay\RT_QBRay_Ep26 - TileBasedRendering\src\qbRayTrace\qbLinAlg\qbVector.h(118): message : while compiling class template member function 'qbVector<T>::qbVector(std::vector<T,std::allocator<T>>)'
+          with
+          [
+              T=double
+          ]
+C:\GitHub\aalekhm\RayTracing\RT_QBRay\RT_QBRay_Ep26 - TileBasedRendering\src\qbRayTrace\qbRayMarch\QBRMSphere.cpp(33): message : see reference to function template instantiation 'qbVector<T>::qbVector(std::vector<T,std::allocator<T>>)' being compiled
+          with
+          [
+              T=double
+          ]
+C:\GitHub\aalekhm\RayTracing\RT_QBRay\RT_QBRay_Ep26 - TileBasedRendering\src\qbRayTrace\qbRayMarch\QBRMSphere.cpp(33): message : see reference to class template instantiation 'qbVector<T>' being compiled
+          with
+          [
+              T=double
+          ]
+  QBRMTorus.cpp
+  QBSDFFunc.cpp
+C:\GitHub\aalekhm\RayTracing\RT_QBRay\RT_QBRay_Ep26 - TileBasedRendering\src\qbRayTrace\qbRayMarch\QBSDFFunc.cpp(24,26): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\GitHub\aalekhm\RayTracing\RT_QBRay\RT_QBRay_Ep26 - TileBasedRendering\src\qbRayTrace\qbRayMarch\QBSDFFunc.cpp(25,30): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  QBScene.cpp
+C:\GitHub\aalekhm\RayTracing\RT_QBRay\RT_QBRay_Ep26 - TileBasedRendering\src\qbRayTrace\QBScene.cpp(858,40): warning C4002: too many arguments for function-like macro invocation 'MAKE_COLOUR'
+C:\GitHub\aalekhm\RayTracing\RT_QBRay\RT_QBRay_Ep26 - TileBasedRendering\src\qbRayTrace\QBScene.cpp(859,40): warning C4002: too many arguments for function-like macro invocation 'MAKE_COLOUR'
+C:\GitHub\aalekhm\RayTracing\RT_QBRay\RT_QBRay_Ep26 - TileBasedRendering\src\qbRayTrace\QBScene.cpp(860,40): warning C4002: too many arguments for function-like macro invocation 'MAKE_COLOUR'
+C:\GitHub\aalekhm\RayTracing\RT_QBRay\RT_QBRay_Ep26 - TileBasedRendering\src\qbRayTrace\QBScene.cpp(1027,33): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\GitHub\aalekhm\RayTracing\RT_QBRay\RT_QBRay_Ep26 - TileBasedRendering\src\qbRayTrace\QBScene.cpp(1074,40): warning C4002: too many arguments for function-like macro invocation 'MAKE_COLOUR'
+C:\GitHub\aalekhm\RayTracing\RT_QBRay\RT_QBRay_Ep26 - TileBasedRendering\src\qbRayTrace\QBScene.cpp(1075,40): warning C4002: too many arguments for function-like macro invocation 'MAKE_COLOUR'
+C:\GitHub\aalekhm\RayTracing\RT_QBRay\RT_QBRay_Ep26 - TileBasedRendering\src\qbRayTrace\QBScene.cpp(1076,40): warning C4002: too many arguments for function-like macro invocation 'MAKE_COLOUR'
+C:\GitHub\aalekhm\RayTracing\RT_QBRay\RT_QBRay_Ep26 - TileBasedRendering\src\qbRayTrace\QBScene.cpp(1221,33): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\GitHub\aalekhm\RayTracing\RT_QBRay\RT_QBRay_Ep26 - TileBasedRendering\src\qbRayTrace\QBScene.cpp(1228,34): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\GitHub\aalekhm\RayTracing\RT_QBRay\RT_QBRay_Ep26 - TileBasedRendering\src\qbRayTrace\QBScene.cpp(1228,29): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\GitHub\aalekhm\RayTracing\RT_QBRay\RT_QBRay_Ep26 - TileBasedRendering\src\qbRayTrace\QBScene.cpp(1237,41): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\GitHub\aalekhm\RayTracing\RT_QBRay\RT_QBRay_Ep26 - TileBasedRendering\src\qbRayTrace\QBScene.cpp(1244,34): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\GitHub\aalekhm\RayTracing\RT_QBRay\RT_QBRay_Ep26 - TileBasedRendering\src\qbRayTrace\QBScene.cpp(1244,29): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\GitHub\aalekhm\RayTracing\RT_QBRay\RT_QBRay_Ep26 - TileBasedRendering\src\qbRayTrace\QBScene.cpp(1253,32): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\GitHub\aalekhm\RayTracing\RT_QBRay\RT_QBRay_Ep26 - TileBasedRendering\src\qbRayTrace\QBScene.cpp(1253,27): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\GitHub\aalekhm\RayTracing\RT_QBRay\RT_QBRay_Ep26 - TileBasedRendering\src\qbRayTrace\QBScene.cpp(1428,33): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\GitHub\aalekhm\RayTracing\RT_QBRay\RT_QBRay_Ep26 - TileBasedRendering\src\qbRayTrace\QBScene.cpp(1435,34): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\GitHub\aalekhm\RayTracing\RT_QBRay\RT_QBRay_Ep26 - TileBasedRendering\src\qbRayTrace\QBScene.cpp(1435,29): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\GitHub\aalekhm\RayTracing\RT_QBRay\RT_QBRay_Ep26 - TileBasedRendering\src\qbRayTrace\QBScene.cpp(1444,41): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\GitHub\aalekhm\RayTracing\RT_QBRay\RT_QBRay_Ep26 - TileBasedRendering\src\qbRayTrace\QBScene.cpp(1451,34): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\GitHub\aalekhm\RayTracing\RT_QBRay\RT_QBRay_Ep26 - TileBasedRendering\src\qbRayTrace\QBScene.cpp(1451,29): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\GitHub\aalekhm\RayTracing\RT_QBRay\RT_QBRay_Ep26 - TileBasedRendering\src\qbRayTrace\QBScene.cpp(1460,32): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\GitHub\aalekhm\RayTracing\RT_QBRay\RT_QBRay_Ep26 - TileBasedRendering\src\qbRayTrace\QBScene.cpp(1460,27): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\GitHub\aalekhm\RayTracing\RT_QBRay\RT_QBRay_Ep26 - TileBasedRendering\src\qbRayTrace\QBScene.cpp(1639,33): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\GitHub\aalekhm\RayTracing\RT_QBRay\RT_QBRay_Ep26 - TileBasedRendering\src\qbRayTrace\QBScene.cpp(1646,34): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\GitHub\aalekhm\RayTracing\RT_QBRay\RT_QBRay_Ep26 - TileBasedRendering\src\qbRayTrace\QBScene.cpp(1646,29): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\GitHub\aalekhm\RayTracing\RT_QBRay\RT_QBRay_Ep26 - TileBasedRendering\src\qbRayTrace\QBScene.cpp(1655,41): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\GitHub\aalekhm\RayTracing\RT_QBRay\RT_QBRay_Ep26 - TileBasedRendering\src\qbRayTrace\QBScene.cpp(1662,34): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\GitHub\aalekhm\RayTracing\RT_QBRay\RT_QBRay_Ep26 - TileBasedRendering\src\qbRayTrace\QBScene.cpp(1662,29): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\GitHub\aalekhm\RayTracing\RT_QBRay\RT_QBRay_Ep26 - TileBasedRendering\src\qbRayTrace\QBScene.cpp(1671,32): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\GitHub\aalekhm\RayTracing\RT_QBRay\RT_QBRay_Ep26 - TileBasedRendering\src\qbRayTrace\QBScene.cpp(1671,27): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\GitHub\aalekhm\RayTracing\RT_QBRay\RT_QBRay_Ep26 - TileBasedRendering\src\qbRayTrace\QBScene.cpp(1876,33): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\GitHub\aalekhm\RayTracing\RT_QBRay\RT_QBRay_Ep26 - TileBasedRendering\src\qbRayTrace\QBScene.cpp(1883,34): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\GitHub\aalekhm\RayTracing\RT_QBRay\RT_QBRay_Ep26 - TileBasedRendering\src\qbRayTrace\QBScene.cpp(1883,29): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\GitHub\aalekhm\RayTracing\RT_QBRay\RT_QBRay_Ep26 - TileBasedRendering\src\qbRayTrace\QBScene.cpp(1892,41): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\GitHub\aalekhm\RayTracing\RT_QBRay\RT_QBRay_Ep26 - TileBasedRendering\src\qbRayTrace\QBScene.cpp(1899,34): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\GitHub\aalekhm\RayTracing\RT_QBRay\RT_QBRay_Ep26 - TileBasedRendering\src\qbRayTrace\QBScene.cpp(1899,29): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\GitHub\aalekhm\RayTracing\RT_QBRay\RT_QBRay_Ep26 - TileBasedRendering\src\qbRayTrace\QBScene.cpp(1908,32): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\GitHub\aalekhm\RayTracing\RT_QBRay\RT_QBRay_Ep26 - TileBasedRendering\src\qbRayTrace\QBScene.cpp(1908,27): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\GitHub\aalekhm\RayTracing\RT_QBRay\RT_QBRay_Ep26 - TileBasedRendering\src\qbRayTrace\QBScene.cpp(2136,33): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\GitHub\aalekhm\RayTracing\RT_QBRay\RT_QBRay_Ep26 - TileBasedRendering\src\qbRayTrace\QBScene.cpp(2143,34): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\GitHub\aalekhm\RayTracing\RT_QBRay\RT_QBRay_Ep26 - TileBasedRendering\src\qbRayTrace\QBScene.cpp(2143,29): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\GitHub\aalekhm\RayTracing\RT_QBRay\RT_QBRay_Ep26 - TileBasedRendering\src\qbRayTrace\QBScene.cpp(2152,41): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\GitHub\aalekhm\RayTracing\RT_QBRay\RT_QBRay_Ep26 - TileBasedRendering\src\qbRayTrace\QBScene.cpp(2159,34): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\GitHub\aalekhm\RayTracing\RT_QBRay\RT_QBRay_Ep26 - TileBasedRendering\src\qbRayTrace\QBScene.cpp(2159,29): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\GitHub\aalekhm\RayTracing\RT_QBRay\RT_QBRay_Ep26 - TileBasedRendering\src\qbRayTrace\QBScene.cpp(2168,32): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\GitHub\aalekhm\RayTracing\RT_QBRay\RT_QBRay_Ep26 - TileBasedRendering\src\qbRayTrace\QBScene.cpp(2168,27): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\GitHub\aalekhm\RayTracing\RT_QBRay\RT_QBRay_Ep26 - TileBasedRendering\src\qbRayTrace\QBScene.cpp(2391,32): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\GitHub\aalekhm\RayTracing\RT_QBRay\RT_QBRay_Ep26 - TileBasedRendering\src\qbRayTrace\QBScene.cpp(2391,27): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\GitHub\aalekhm\RayTracing\RT_QBRay\RT_QBRay_Ep26 - TileBasedRendering\src\qbRayTrace\QBScene.cpp(2403,28): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\GitHub\aalekhm\RayTracing\RT_QBRay\RT_QBRay_Ep26 - TileBasedRendering\src\qbRayTrace\QBScene.cpp(2420,33): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\GitHub\aalekhm\RayTracing\RT_QBRay\RT_QBRay_Ep26 - TileBasedRendering\src\qbRayTrace\QBScene.cpp(2420,27): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\GitHub\aalekhm\RayTracing\RT_QBRay\RT_QBRay_Ep26 - TileBasedRendering\src\qbRayTrace\QBScene.cpp(2690,32): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\GitHub\aalekhm\RayTracing\RT_QBRay\RT_QBRay_Ep26 - TileBasedRendering\src\qbRayTrace\QBScene.cpp(2690,27): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\GitHub\aalekhm\RayTracing\RT_QBRay\RT_QBRay_Ep26 - TileBasedRendering\src\qbRayTrace\QBScene.cpp(2702,28): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\GitHub\aalekhm\RayTracing\RT_QBRay\RT_QBRay_Ep26 - TileBasedRendering\src\qbRayTrace\QBScene.cpp(2719,33): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\GitHub\aalekhm\RayTracing\RT_QBRay\RT_QBRay_Ep26 - TileBasedRendering\src\qbRayTrace\QBScene.cpp(2719,27): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+  QBBasicGradientNoiseTexture.cpp
+  QBBasicValueNoiseTexture.cpp
+  QBCheckeredTexture.cpp
+  QBColourMap.cpp
+C:\GitHub\aalekhm\RayTracing\RT_QBRay\RT_QBRay_Ep26 - TileBasedRendering\src\qbRayTrace\qbTextures\QBColourMap.cpp(25,37): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  QBFlatTexture.cpp
+  QBGradientTexture.cpp
+  QBImageTexture.cpp
+  QBMarbleTexture.cpp
+  Compiling...
+  QBStoneTexture.cpp
+  QBTextureBase.cpp
+C:\GitHub\aalekhm\RayTracing\RT_QBRay\RT_QBRay_Ep26 - TileBasedRendering\src\qbRayTrace\qbLinAlg\qbMatrix33.hpp(159,23): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\GitHub\aalekhm\RayTracing\RT_QBRay\RT_QBRay_Ep26 - TileBasedRendering\src\qbRayTrace\qbLinAlg\qbMatrix33.hpp(158): message : while compiling class template member function 'void qbMatrix33<double>::SetToIdentity(void)'
+C:\GitHub\aalekhm\RayTracing\RT_QBRay\RT_QBRay_Ep26 - TileBasedRendering\src\qbRayTrace\qbTextures\QBTextureBase.cpp(5): message : see reference to function template instantiation 'void qbMatrix33<double>::SetToIdentity(void)' being compiled
+C:\GitHub\aalekhm\RayTracing\RT_QBRay\RT_QBRay_Ep26 - TileBasedRendering\src\qbRayTrace\qbLinAlg\qbMatrix33.hpp(445): message : see reference to class template instantiation 'qbMatrix33<double>' being compiled
+  QBTimer.cpp
+  QBUtils.cpp
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 2116 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  RT_QBRay_Ep26 - TileBasedRendering.vcxproj -> C:\GitHub\aalekhm\RayTracing\RT_QBRay\x64\Release\RT_QBRay_Ep26 - TileBasedRendering.exe

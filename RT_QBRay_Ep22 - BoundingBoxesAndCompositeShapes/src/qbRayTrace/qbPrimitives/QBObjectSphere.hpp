@@ -1,0 +1,23 @@
+#pragma once
+
+#include "QBObjectBase.hpp"
+#include "qbRayTrace/QBGeometricTransform.hpp"
+
+namespace QBRT
+{
+	class QBObjectSphere : public QBObjectBase, public std::enable_shared_from_this<QBRT::QBObjectSphere>
+	{
+		public:
+			/* The default constructor.	Note that this will define a unit sphere at the origin. */
+			QBObjectSphere();
+
+			// Override the destructor.
+			~QBObjectSphere();
+
+			// Override the function to test for intersections.
+			virtual bool TestIntersection(	const QBRay& castRay,
+											QBRT::DATA::HitData& sHitData) override;
+
+		private:
+	};
+}

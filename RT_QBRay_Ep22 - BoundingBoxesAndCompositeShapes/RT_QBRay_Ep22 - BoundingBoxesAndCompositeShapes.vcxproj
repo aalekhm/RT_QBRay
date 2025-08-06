@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{13AC21A7-6155-46CB-BE27-75ADF308A44B}</ProjectGuid>
+    <RootNamespace>RTQBRay</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>RT_QBRay_Ep22 - BoundingBoxesAndCompositeShapes</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(SolutionDir)external-deps\SDL3\include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(SolutionDir)external-deps\SDL3\include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(SolutionDir)external-deps\SDL3\include;$(VC_IncludePath);$(WindowsSDK_IncludePath);</IncludePath>
+    <LibraryPath>$(SolutionDir)external-deps\SDL3\lib\$(Platform);$(VC_LibraryPath_x64);$(WindowsSDK_LibraryPath_x64)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(SolutionDir)external-deps\SDL3\include;$(VC_IncludePath);$(WindowsSDK_IncludePath);</IncludePath>
+    <LibraryPath>$(SolutionDir)external-deps\SDL3\lib\$(Platform);$(VC_LibraryPath_x64);$(WindowsSDK_LibraryPath_x64)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(SolutionDir)external-deps\SDL3\include;$(VC_IncludePath);$(WindowsSDK_IncludePath);</IncludePath>
+    <LibraryPath>$(SolutionDir)external-deps\SDL3\lib\$(Platform);$(VC_LibraryPath_x64);$(WindowsSDK_LibraryPath_x64)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>SDL3.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>SDL3.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>src</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>SDL3.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;__PROJECT_NAME__="$(ProjectName)";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>src</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>SDL3.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>src</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>SDL3.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="src\CApp.cpp" />
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\qbRayTrace\QBCamera.cpp" />
+    <ClCompile Include="src\qbRayTrace\QBGeometricTransform.cpp" />
+    <ClCompile Include="src\qbRayTrace\QBImage.cpp" />
+    <ClCompile Include="src\qbRayTrace\qbLights\QBLightBase.cpp" />
+    <ClCompile Include="src\qbRayTrace\qbLights\QBPointLight.cpp" />
+    <ClCompile Include="src\qbRayTrace\qbMaterials\QBMaterialBase.cpp" />
+    <ClCompile Include="src\qbRayTrace\qbMaterials\QBSimpleMaterial.cpp" />
+    <ClCompile Include="src\qbRayTrace\qbMaterials\QBSimpleRefractive.cpp" />
+    <ClCompile Include="src\qbRayTrace\qbNoise\QBGradientNoiseGenerator.cpp" />
+    <ClCompile Include="src\qbRayTrace\qbNoise\QBNoiseBase.cpp" />
+    <ClCompile Include="src\qbRayTrace\qbNoise\QBValueNoiseGenerator.cpp" />
+    <ClCompile Include="src\qbRayTrace\qbNormals\QBImageNormal.cpp" />
+    <ClCompile Include="src\qbRayTrace\qbNormals\QBNormalBase.cpp" />
+    <ClCompile Include="src\qbRayTrace\qbNormals\QBNormalConstant.cpp" />
+    <ClCompile Include="src\qbRayTrace\qbNormals\QBNormalSimpleRough.cpp" />
+    <ClCompile Include="src\qbRayTrace\qbNormals\QBTextureNormal.cpp" />
+    <ClCompile Include="src\qbRayTrace\qbPrimitives\QBBox.cpp" />
+    <ClCompile Include="src\qbRayTrace\qbPrimitives\QBCompositeBase.cpp" />
+    <ClCompile Include="src\qbRayTrace\qbPrimitives\QBCone.cpp" />
+    <ClCompile Include="src\qbRayTrace\qbPrimitives\QBCylinder.cpp" />
+    <ClCompile Include="src\qbRayTrace\qbPrimitives\QBObjectBase.cpp" />
+    <ClCompile Include="src\qbRayTrace\qbPrimitives\QBObjectPlane.cpp" />
+    <ClCompile Include="src\qbRayTrace\qbPrimitives\QBObjectSphere.cpp" />
+    <ClCompile Include="src\qbRayTrace\QBRay.cpp" />
+    <ClCompile Include="src\qbRayTrace\qbRayMarch\QBRayMarchBase.cpp" />
+    <ClCompile Include="src\qbRayTrace\qbRayMarch\QBRMCube.cpp" />
+    <ClCompile Include="src\qbRayTrace\qbRayMarch\QBRMSphere.cpp" />
+    <ClCompile Include="src\qbRayTrace\qbRayMarch\QBRMTorus.cpp" />
+    <ClCompile Include="src\qbRayTrace\qbRayMarch\QBSDFFunc.cpp" />
+    <ClCompile Include="src\qbRayTrace\QBScene.cpp" />
+    <ClCompile Include="src\qbRayTrace\qbTextures\QBBasicGradientNoiseTexture.cpp" />
+    <ClCompile Include="src\qbRayTrace\qbTextures\QBBasicValueNoiseTexture.cpp" />
+    <ClCompile Include="src\qbRayTrace\qbTextures\QBCheckeredTexture.cpp" />
+    <ClCompile Include="src\qbRayTrace\qbTextures\QBColourMap.cpp" />
+    <ClCompile Include="src\qbRayTrace\qbTextures\QBFlatTexture.cpp" />
+    <ClCompile Include="src\qbRayTrace\qbTextures\QBGradientTexture.cpp" />
+    <ClCompile Include="src\qbRayTrace\qbTextures\QBImageTexture.cpp" />
+    <ClCompile Include="src\qbRayTrace\qbTextures\QBMarbleTexture.cpp" />
+    <ClCompile Include="src\qbRayTrace\qbTextures\QBStoneTexture.cpp" />
+    <ClCompile Include="src\qbRayTrace\qbTextures\QBTextureBase.cpp" />
+    <ClCompile Include="src\qbRayTrace\QBTimer.cpp" />
+    <ClCompile Include="src\qbRayTrace\QBUtils.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\CApp.h" />
+    <ClInclude Include="src\qbRayTrace\QBCamera.hpp" />
+    <ClInclude Include="src\qbRayTrace\QBGeometricTransform.hpp" />
+    <ClInclude Include="src\qbRayTrace\QBImage.hpp" />
+    <ClInclude Include="src\qbRayTrace\qbLights\QBLightBase.hpp" />
+    <ClInclude Include="src\qbRayTrace\qbLights\QBPointLight.hpp" />
+    <ClInclude Include="src\qbRayTrace\qbLinAlg\qbMatrix.h" />
+    <ClInclude Include="src\qbRayTrace\qbLinAlg\qbMatrix33.hpp" />
+    <ClInclude Include="src\qbRayTrace\qbLinAlg\qbMatrix44.hpp" />
+    <ClInclude Include="src\qbRayTrace\qbLinAlg\qbVector.h" />
+    <ClInclude Include="src\qbRayTrace\qbLinAlg\qbVector2.hpp" />
+    <ClInclude Include="src\qbRayTrace\qbLinAlg\qbVector3.hpp" />
+    <ClInclude Include="src\qbRayTrace\qbLinAlg\qbVector4.hpp" />
+    <ClInclude Include="src\qbRayTrace\qbMaterials\QBMaterialBase.hpp" />
+    <ClInclude Include="src\qbRayTrace\qbMaterials\QBSimpleMaterial.hpp" />
+    <ClInclude Include="src\qbRayTrace\qbMaterials\QBSimpleRefractive.hpp" />
+    <ClInclude Include="src\qbRayTrace\qbNoise\QBGradientNoiseGenerator.hpp" />
+    <ClInclude Include="src\qbRayTrace\qbNoise\QBNoiseBase.hpp" />
+    <ClInclude Include="src\qbRayTrace\qbNoise\QBValueNoiseGenerator.hpp" />
+    <ClInclude Include="src\qbRayTrace\qbNormals\QBImageNormal.hpp" />
+    <ClInclude Include="src\qbRayTrace\qbNormals\QBNormalBase.hpp" />
+    <ClInclude Include="src\qbRayTrace\qbNormals\QBNormalConstant.hpp" />
+    <ClInclude Include="src\qbRayTrace\qbNormals\QBNormalSimpleRough.hpp" />
+    <ClInclude Include="src\qbRayTrace\qbNormals\QBTextureNormal.hpp" />
+    <ClInclude Include="src\qbRayTrace\qbPrimitives\QBBox.hpp" />
+    <ClInclude Include="src\qbRayTrace\qbPrimitives\QBCompositeBase.hpp" />
+    <ClInclude Include="src\qbRayTrace\qbPrimitives\QBCone.hpp" />
+    <ClInclude Include="src\qbRayTrace\qbPrimitives\QBCylinder.hpp" />
+    <ClInclude Include="src\qbRayTrace\qbPrimitives\QBObjectBase.hpp" />
+    <ClInclude Include="src\qbRayTrace\qbPrimitives\QBObjectPlane.hpp" />
+    <ClInclude Include="src\qbRayTrace\qbPrimitives\QBObjectSphere.hpp" />
+    <ClInclude Include="src\qbRayTrace\QBRay.hpp" />
+    <ClInclude Include="src\qbRayTrace\qbRayMarch\QBRayMarchBase.hpp" />
+    <ClInclude Include="src\qbRayTrace\qbRayMarch\QBRMCube.hpp" />
+    <ClInclude Include="src\qbRayTrace\qbRayMarch\QBRMSphere.hpp" />
+    <ClInclude Include="src\qbRayTrace\qbRayMarch\QBRMTorus.hpp" />
+    <ClInclude Include="src\qbRayTrace\qbRayMarch\QBSDFFunc.hpp" />
+    <ClInclude Include="src\qbRayTrace\QBScene.hpp" />
+    <ClInclude Include="src\qbRayTrace\qbTextures\QBBasicGradientNoiseTexture.hpp" />
+    <ClInclude Include="src\qbRayTrace\qbTextures\QBBasicValueNoiseTexture.hpp" />
+    <ClInclude Include="src\qbRayTrace\qbTextures\QBCheckeredTexture.hpp" />
+    <ClInclude Include="src\qbRayTrace\qbTextures\QBColourMap.hpp" />
+    <ClInclude Include="src\qbRayTrace\qbTextures\QBFlatTexture.hpp" />
+    <ClInclude Include="src\qbRayTrace\qbTextures\QBGradientTexture.hpp" />
+    <ClInclude Include="src\qbRayTrace\qbTextures\QBImageTexture.hpp" />
+    <ClInclude Include="src\qbRayTrace\qbTextures\QBMarbleTexture.hpp" />
+    <ClInclude Include="src\qbRayTrace\qbTextures\QBStoneTexture.hpp" />
+    <ClInclude Include="src\qbRayTrace\qbTextures\QBTextureBase.hpp" />
+    <ClInclude Include="src\qbRayTrace\QBTimer.hpp" />
+    <ClInclude Include="src\qbRayTrace\QBUtils.hpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
